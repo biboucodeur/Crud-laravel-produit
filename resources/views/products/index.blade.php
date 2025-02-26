@@ -42,7 +42,7 @@
         <tbody>
             @if ($products->isEmpty())
             <tr>
-                <td colspan="4" class="text-center text-gray-500 py-4">Aucun produit trouvé.</td>
+                <td colspan="4" class="text-center text-gray-500 py-4">Aucun produit trouvé !</td>
             </tr>
             @endif
 
