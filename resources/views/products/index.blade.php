@@ -50,7 +50,7 @@
 
             <tr>
                 <td class="border p-2 text-center">{{ $product->name }}</td>
-                <td class="border p-2 text-center">{{ $product->price }} FCFA</td>
+                <td class="border p-2 text-center">{{ $product->price }} F CFA</td>
                 <td class="border p-2 text-center">{{ $product->stock }}</td>
                 <td class="border p-2 text-center">
                     <a href="{{ route('products.edit', $product) }}" class="bg-yellow-500 text-white px-2 py-1 rounded">Modifier</a>
